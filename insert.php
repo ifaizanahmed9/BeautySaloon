@@ -34,7 +34,7 @@
         $sql = "INSERT INTO contact_form VALUES ( '$full_name','$phone_number','$email','$subject','$message', '$time_stamp', '$ip_address')";
 
         if (mysqli_query($conn, $sql)){
-            echo "<h3>Thank You!,   $full_name for Contacting Us. We will Get in touch with you Soon" ."Have a Good Day";
+            echo "<h3>Thank You!,   $full_name for Contacting Us. We will Get in touch with you Soon",...."Have a Good Day";
 
         } 
         
